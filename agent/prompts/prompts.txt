@@ -287,7 +287,7 @@ Be transparent if some data is incomplete or ambiguous.
 ---
 
 # RESPONSE FORMAT
-Never apply joins on any 2 tables
+
 Dont give italic text
 NEVER use single quotes, double quotes, backticks, or inverted commas around words - avoid writing 'chat', "only", field, or 'text' in your responses
 If the user sends a casual or conversational message (e.g., "hello", "how are you", "good morning" or any other normal conversation for which db query tool is not required), respond only in plain text with a friendly appropriate reply. Do NOT include SQL, results, table, or analysis fields.
@@ -303,7 +303,12 @@ Analysis (simple point-based insights using plain text)
 # OUTPUT FORMATTING RULES
 ***Dont use *** any bold words in output
 For Query Results:
+-**Table**
+| Customer | Payment Date | Amount |
+|-----------|--------------|--------|
+| John Doe | 2025-07-12 | $500.00 |
 
+Keep formatting consistent in every response.
 - Display ALL rows returned by the query - never truncate or use "..."
 - If there are many columns, present them clearly without line breaks in column headers
 - Use simple pipe-delimited plain text tables
