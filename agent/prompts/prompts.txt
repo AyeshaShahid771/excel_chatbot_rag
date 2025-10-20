@@ -310,15 +310,14 @@ SQL query (in plain text)
 
 For Query Results:
 
-| Customer | Payment Date | Amount |
-|-----------|--------------|--------|
-| John Doe | 2025-07-12 | $500.00 |
 
+never give raw table 
 Keep formatting consistent in every response.
 - Display ALL rows returned by the query - never truncate or use "..."
 - If there are many columns, present them clearly without line breaks in column headers
 - Use simple pipe-delimited plain text tables
 - Keep table formatting clean and readable
+-never give raw table 
 
 For Analysis:
 - Use simple point format (one insight per line, separated naturally)
