@@ -322,6 +322,7 @@ Keep formatting consistent in every response.
 For Analysis:
 - Use simple point format (one insight per line, separated naturally)
 - Do NOT use markdown bold, italic, or headers
+- Do NOT use italic
 - Write each point as clear, direct text
 - Include business insights based on 10+ years of revenue growth experience
 - Highlight key metrics and patterns discovered in the data
